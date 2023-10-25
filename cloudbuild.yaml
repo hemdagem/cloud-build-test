@@ -2,7 +2,7 @@ steps:
 - name: 'mcr.microsoft.com/playwright:v1.39.0-jammy'
   script: |
     #!/usr/bin/env bash
-    npm CI
+    npm ci
     npx playwright test
   env:
   - 'CI=true'
